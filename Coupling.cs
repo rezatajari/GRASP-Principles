@@ -10,6 +10,33 @@ namespace GRASP_Principles
     {
     }
 
+    // High Coupling 
+    internal class MyBookWithCoupling
+    {
+        public string Name { get; set; }
+        public bool IsBorrowed { get; set; }
+
+        public bool IsAvailable()
+        {
+            return !IsBorrowed;
+        }
+    }
+
+    internal class LibraryCatalog
+    {
+        public void CheckAvailability(Book book)
+        {
+            // Directly tied to the Book class
+            if (book.IsAvailable())
+            {
+                Console.WriteLine($"'{book.Name}' is available.");
+            }
+        }
+    }
+
+
+    // Low Coupling
+
     // Define abstraction
     internal interface ISearchable
     {
@@ -18,14 +45,14 @@ namespace GRASP_Principles
     }
 
     // MyBook implements the abstraction
-    internal class MyBook:ISearchable
+    internal class MyBookDeCoupling:ISearchable
     {
         public string Name { get; }
-        public bool IsBarrow { get; set; }
+        public bool IsBorrow { get; set; }
 
         public bool IsAvailable()
         {
-            return IsBarrow;
+            return IsBorrow;
         }
     }
 
