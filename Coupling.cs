@@ -36,7 +36,6 @@ namespace GRASP_Principles
 
 
     // Low Coupling
-
     // Define abstraction
     internal interface ISearchable
     {
