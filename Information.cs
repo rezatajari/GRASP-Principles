@@ -13,7 +13,7 @@ namespace GRASP_Principles
     internal class Book
     {
 
-        static Book Create(string name, string author, string categoryName)
+        public static Book Create(string name, string author, string categoryName)
         {
             return new Book { Name = name, Author = author, CategoryName = categoryName };
         }
