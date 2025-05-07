@@ -41,13 +41,12 @@ The `Search` class demonstrates **Low Coupling** by depending only on the `ISear
   - Checks the availability of the item using the `IsAvailable()` method.
   - Outputs whether the item is available or not.
 
----
-
 ## GRASP Principle: Low Coupling
 The **Low Coupling** principle is applied in the `Search` class. By depending on the `ISearchable` interface instead of a specific class like `MyBook`, the design achieves:
-1. **Flexibility**: The `Search` class can work with any class implementing the `ISearchable` interface, not just `MyBook`.
-2. **Maintainability**: Changes to the `MyBook` class or other implementations of `ISearchable` do not affect the `Search` class.
-3. **Reusability**: The `Search` class can be reused in different contexts with different implementations of `ISearchable`.
+
+    1. **Flexibility**: The `Search` class can work with any class implementing the `ISearchable` interface, not just `MyBook`.
+    2. **Maintainability**: Changes to the `MyBook` class or other implementations of `ISearchable` do not affect the `Search` class.
+    3. **Reusability**: The `Search` class can be reused in different contexts with different implementations of `ISearchable`.
 
 ---
 

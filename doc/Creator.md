@@ -28,6 +28,7 @@ The `Library` class is responsible for managing a collection of books. It demons
 
 ## GRASP Principle: Creator
 The **Creator** principle is applied in the `Library` class. The `Library` class is responsible for creating `Book` objects because:
+
 1. It aggregates `Book` objects in its collection.
 2. It has the necessary information (name, author, category) to initialize a `Book`.
 
