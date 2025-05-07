@@ -23,6 +23,7 @@ namespace GRASP_Principles
         public string CategoryName { get; private set; }
         public string Author { get; private set; }
         public bool IsBarrow { get; private set; }
+        public string Type { get; set; }
 
         public bool IsAvailable()
         {
