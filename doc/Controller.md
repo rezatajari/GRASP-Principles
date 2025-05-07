@@ -1,4 +1,4 @@
-﻿# Documentation: Controller.cs
+﻿# Controller.cs
 
 ## Overview
 The `Controller.cs` file demonstrates the **Controller** principle from GRASP (General Responsibility Assignment Software Patterns). The Controller principle assigns the responsibility of handling system operations to a class that represents a use-case scenario or a role in the system. This file also highlights the importance of adhering to the **Low Coupling** principle by comparing two implementations of a borrowing controller.

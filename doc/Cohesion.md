@@ -1,4 +1,4 @@
-﻿# Documentation: Cohesion.cs
+﻿# Cohesion.cs
 
 ## Overview
 The `Cohesion.cs` file demonstrates the concept of **High Cohesion**, a key principle in GRASP (General Responsibility Assignment Software Patterns). High cohesion ensures that a class has a well-defined purpose and contains only closely related responsibilities, making it easier to maintain, understand, and extend.
@@ -48,9 +48,9 @@ The `MagazineCohesion` class is an example of **High Cohesion**. It focuses sole
 ## GRASP Principle: High Cohesion
 The **High Cohesion** principle is applied in the `MagazineCohesion` class. By focusing solely on magazine-related responsibilities, the class achieves:
 
-    1. **Modularity**: The class is self-contained and easy to understand.
-    2. **Separation of Concerns**: Unrelated responsibilities (e.g., user authentication) are not included in the class.
-    3. **Ease of Maintenance**: The class is easier to modify and extend without introducing unintended side effects.
+   1. **Modularity**: The class is self-contained and easy to understand.
+   2. **Separation of Concerns**: Unrelated responsibilities (e.g., user authentication) are not included in the class.
+   3. **Ease of Maintenance**: The class is easier to modify and extend without introducing unintended side effects.
 
 ---
 

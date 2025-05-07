@@ -1,4 +1,4 @@
-﻿# Documentation: Indirection.cs
+﻿# Indirection.cs
 
 ## Overview
 The `Indirection.cs` file demonstrates the **Indirection** principle from GRASP (General Responsibility Assignment Software Patterns). Indirection introduces an intermediary to mediate between two components or layers, such as database access and business logic. This principle helps achieve **Low Coupling** by decoupling components, making the system more modular, maintainable, and testable.

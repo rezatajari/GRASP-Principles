@@ -1,4 +1,4 @@
-﻿# Documentation: Coupling.cs
+﻿# Coupling.cs
 
 ## Overview
 The `Coupling.cs` file demonstrates the concept of **Low Coupling**, a key principle in GRASP (General Responsibility Assignment Software Patterns). Low coupling ensures that classes and components in a system are minimally dependent on each other, improving modularity, maintainability, and flexibility.
@@ -44,9 +44,9 @@ The `Search` class demonstrates **Low Coupling** by depending only on the `ISear
 ## GRASP Principle: Low Coupling
 The **Low Coupling** principle is applied in the `Search` class. By depending on the `ISearchable` interface instead of a specific class like `MyBook`, the design achieves:
 
-    1. **Flexibility**: The `Search` class can work with any class implementing the `ISearchable` interface, not just `MyBook`.
-    2. **Maintainability**: Changes to the `MyBook` class or other implementations of `ISearchable` do not affect the `Search` class.
-    3. **Reusability**: The `Search` class can be reused in different contexts with different implementations of `ISearchable`.
+   1. **Flexibility**: The `Search` class can work with any class implementing the `ISearchable` interface, not just `MyBook`.
+   2. **Maintainability**: Changes to the `MyBook` class or other implementations of `ISearchable` do not affect the `Search` class.
+   3. **Reusability**: The `Search` class can be reused in different contexts with different implementations of `ISearchable`.
 
 ---
 

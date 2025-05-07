@@ -1,4 +1,4 @@
-﻿# Documentation: Polymorphism.cs
+﻿# Polymorphism.cs
 
 ## Overview
 The `Polymorphism.cs` file demonstrates the **Polymorphism** principle from GRASP (General Responsibility Assignment Software Patterns). Polymorphism allows behavior to vary based on the type of object, enabling dynamic method dispatch. This principle helps eliminate conditional logic, making the system more flexible, maintainable, and extensible.

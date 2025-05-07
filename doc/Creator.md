@@ -1,4 +1,4 @@
-﻿# Documentation: Creator.cs
+﻿# Creator.cs
 
 ## Overview
 The `Creator.cs` file demonstrates the application of the **Creator** principle from GRASP (General Responsibility Assignment Software Patterns). This principle assigns the responsibility of creating an object to a class that has the necessary information to initialize it or closely uses it.

@@ -1,4 +1,4 @@
-﻿### **Purpose of the `Information` Class**
+﻿# Information.cs
 The `Information` class is currently a placeholder and does not contain any properties or methods. Its presence suggests it may serve as a conceptual or structural component in the system, potentially acting as a container or base for managing information related to GRASP principles. This class can be extended in the future to encapsulate behaviors or data relevant to the domain.
 
 ---

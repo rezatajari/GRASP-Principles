@@ -1,4 +1,4 @@
-﻿# Documentation: PureFabrication.cs
+﻿# PureFabrication.cs
 
 ## Overview
 The `PureFabrication.cs` file demonstrates the **Pure Fabrication** principle from GRASP (General Responsibility Assignment Software Patterns). Pure Fabrication introduces a class that does not represent a concept in the problem domain but is created to achieve specific design goals, such as reducing coupling, increasing cohesion, or reusing code.
